@@ -1,5 +1,5 @@
 function Fizzbuzz() {
   Fizzbuzz.prototype.convert = function (number) {
-    return 1;
+    return number;
   };
 }
