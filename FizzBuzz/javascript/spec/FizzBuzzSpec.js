@@ -34,7 +34,12 @@ describe("The Fizzbuzz function", function() {
   it("returns Buzz when passed a multiple of 5", function() {
     result = fizzbuzz.convert(10);
     expect(result).toBe("Buzz");
-  })
+  });
+
+  it("returns FizzBuzz when passed a multiple of 3 and 5", function() {
+    result = fizzbuzz.convert(30);
+    expect(result).toBe("FizzBuzz");
+  });
 
 
 });
