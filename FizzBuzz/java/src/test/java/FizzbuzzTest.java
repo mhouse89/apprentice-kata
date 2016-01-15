@@ -13,4 +13,11 @@ public class FizzbuzzTest {
     assertEquals("1", result);
   }
 
+  @Test
+  public void fizzbuzzReturns2WhenPassedTheNumber2() {
+    Fizzbuzz fb = new Fizzbuzz();
+    String result = fb.convert(2);
+    assertEquals("2", result);
+  }
+
 }
