@@ -3,16 +3,22 @@ public class Fizzbuzz {
 
   public String convert(int number) {
 
-    if(number % 15 == 0) {
-      return "FizzBuzz";
+    StringBuilder result = new StringBuilder();
+
+    if (number % 3 == 0) {
+          result.append("Fizz");
     }
-    else if(number % 3 == 0) {
-      return "Fizz";
+
+    if (number % 5 == 0) {
+          result.append("Buzz");
     }
-    else if (number % 5 == 0) {
-      return "Buzz";
+
+    if (result.length() > 1){
+          return result.toString();
     }
+    
     return Integer.toString(number);
+
   }
 
 }
