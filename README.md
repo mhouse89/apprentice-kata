@@ -4,6 +4,7 @@
   - Java: <strong>DONE</strong>
   - JavaScript: <strong>DONE</strong>
   - Python: In Progress
+    - use `pip install -r requirements.txt` to install dependencies.
   - Ruby: ...
 
 2. <a href="http://agilekatas.co.uk/katas/romannumerals-kata">RomanNumerals</a>
