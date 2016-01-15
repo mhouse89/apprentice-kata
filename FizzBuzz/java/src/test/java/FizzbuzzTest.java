@@ -27,4 +27,10 @@ public class FizzbuzzTest {
           assertEquals("2", result);
   }
 
+  @Test
+  public void fizzbuzzReturnsFizzWhenPassedTheNumber3() {
+          result = fb.convert(3);
+          assertEquals("Fizz", result);
+  }
+
 }
