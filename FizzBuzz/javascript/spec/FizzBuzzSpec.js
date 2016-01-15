@@ -4,8 +4,10 @@ describe("The Fizzbuzz function", function() {
   beforeEach(function(){
     fizzbuzz = new Fizzbuzz;
   });
+
   it("returns 1 when passed a 1", function() {
     var result = fizzbuzz.convert(1);
-    expect(result).toBe("1");
+    expect(result).toBe(1);
   });
+  
 });
