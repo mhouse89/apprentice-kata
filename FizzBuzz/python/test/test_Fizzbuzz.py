@@ -29,3 +29,7 @@ class FizzbuzzTester(unittest.TestCase):
     def test_fizzbuzz_returns_Buzz_when_passed_multiple_of_5(self):
         result = self.fizzbuzz.convert(10)
         self.assertEqual("Buzz", result)
+
+    def test_fizzbuzz_returns_FizzBuzz_when_passed_multiple_of_5_and_3(self):
+        result = self.fizzbuzz.convert(30)
+        self.assertEqual("FizzBuzz", result)
