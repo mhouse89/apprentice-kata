@@ -26,4 +26,9 @@ describe("The Fizzbuzz function", function() {
     expect(result).toBe("Buzz");
   });
 
+  it("returns Fizz when passed a multiple of 3", function() {
+    result = fizzbuzz.convert(6);
+    expect(result).toBe("Fizz");
+  })
+
 });
