@@ -2,7 +2,7 @@
 public class Fizzbuzz {
 
   public String convert(int number) {
-    return "";
+    return Integer.toString(number);
   }
 
 }

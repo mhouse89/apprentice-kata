@@ -10,7 +10,7 @@ public class FizzbuzzTest {
   public void fizzbuzzReturns1WhenPassedTheNumber1() {
     Fizzbuzz fb = new Fizzbuzz();
     String result = fb.convert(1);
-
-    assertEquals(1, result);
+    assertEquals("1", result);
   }
+
 }
