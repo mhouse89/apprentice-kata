@@ -2,8 +2,8 @@
 
 1. FizzBuzz
   - Java: <strong>DONE</strong>
-  - JavaScript: In Progress
-  - Python: ...
+  - JavaScript: <strong>DONE</strong>
+  - Python: In Progress
   - Ruby: ...
 
 2. RomanNumerals
