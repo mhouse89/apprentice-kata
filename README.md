@@ -1,8 +1,8 @@
 # apprentice-kata
 
 1. FizzBuzz
-  - Java: In Progress
-  - JavaScript: ...
+  - Java: DONE
+  - JavaScript: In Progress
   - Python: ...
   - Ruby: ...
 
