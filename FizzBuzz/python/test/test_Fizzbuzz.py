@@ -6,3 +6,7 @@ class FizzbuzzTester(unittest.TestCase):
         fizzbuzz = Fizzbuzz()
         result = fizzbuzz.convert(1)
         self.assertEqual(1, result)
+    def test_fizzbuzz_returns_2_when_passed_2(self):
+        fizzbuzz = Fizzbuzz()
+        result = fizzbuzz.convert(2)
+        self.assertEqual(2, result)
