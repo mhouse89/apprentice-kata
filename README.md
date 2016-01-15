@@ -1,12 +1,13 @@
 # apprentice-kata
 
-1. FizzBuzz
+1. <a href="http://agilekatas.co.uk/katas/FizzBuzz-Kata">FizzBuzz</a>
   - Java: <strong>DONE</strong>
-  - JavaScript: In Progress
-  - Python: ...
+  - JavaScript: <strong>DONE</strong>
+  - Python: In Progress
+    - use `pip install -r requirements.txt` to install dependencies.
   - Ruby: ...
 
-2. RomanNumerals
+2. <a href="http://agilekatas.co.uk/katas/romannumerals-kata">RomanNumerals</a>
   - Java: ...
   - JavaScript: ...
   - Python: ...
