@@ -1,6 +1,6 @@
 # apprentice-kata
 
-1. FizzBuzz
+1. <a href="http://agilekatas.co.uk/katas/FizzBuzz-Kata">FizzBuzz</a>
   - Java: <strong>DONE</strong>
   - JavaScript: <strong>DONE</strong>
   - Python: In Progress
