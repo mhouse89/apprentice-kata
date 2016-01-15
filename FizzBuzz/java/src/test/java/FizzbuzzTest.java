@@ -51,4 +51,10 @@ public class FizzbuzzTest {
           assertEquals("Buzz", result);
   }
 
+  @Test
+  public void fizzBuzzReturnsFizzBuzzWhenPassedAMultipleOf3And5() {
+          result = fb.convert(15);
+          assertEquals("FizzBuzz", result);
+  }
+
 }
