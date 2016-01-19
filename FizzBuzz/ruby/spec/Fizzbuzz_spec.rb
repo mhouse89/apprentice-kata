@@ -33,6 +33,17 @@ describe FizzBuzz do
         end
       end
 
-    end
+      context "given a multiple of 5" do
+        it "returns Buzz" do
+          expect(FizzBuzz.convert(10)).to eql("Buzz")
+        end
+      end
 
+      context "given a multiple of 3 and 5" do
+        it "returns Buzz" do
+          expect(FizzBuzz.convert(60)).to eql("FizzBuzz")
+        end
+      end
+
+    end
 end

@@ -2,12 +2,14 @@ class FizzBuzz
 
   def self.convert(number)
 
-    if number % 3 == 0
-      return "Fizz"
-    elsif number == 5
-      return "Buzz"
+    if number % 15 == 0
+      "FizzBuzz"
+    elsif number % 3 == 0
+      "Fizz"
+    elsif number % 5 == 0
+      "Buzz"
     else
-      return number
+      number
     end
 
   end
