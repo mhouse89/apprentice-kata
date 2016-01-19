@@ -21,6 +21,12 @@ describe FizzBuzz do
         end
       end
 
+      context "given a 5" do
+        it "returns Buzz" do
+          expect(FizzBuzz.convert(5)).to eql("Buzz")
+        end
+      end
+
     end
 
 end
