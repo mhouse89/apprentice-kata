@@ -1,5 +1,4 @@
 class FizzBuzz
-
   def self.convert(number)
 
     if number % 15 == 0
