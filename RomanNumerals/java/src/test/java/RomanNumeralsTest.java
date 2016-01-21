@@ -13,4 +13,11 @@ public class RomanNumeralsTest {
 
   }
 
+  @Test
+  public void testRomanNumeralsConvertsIIto2() throws Exception {
+    int result = RomanNumerals.convert("II");
+    assertEquals(2, result);
+    
+  }
+
 }
