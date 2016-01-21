@@ -11,6 +11,7 @@ public static int convert(String romanNumeral) {
         conversion.put('I', 1);
         conversion.put('V', 5);
         conversion.put('X', 10);
+        conversion.put('L', 50);
 
         romanNumeralBuffer = new StringBuilder(romanNumeral);
         StringBuilder reverse = romanNumeralBuffer.reverse();
