@@ -10,6 +10,7 @@ public static int convert(String romanNumeral) {
                 new Hashtable<Character, Integer>();
         conversion.put('I', 1);
         conversion.put('V', 5);
+        conversion.put('X', 10);
 
         romanNumeralBuffer = new StringBuilder(romanNumeral);
         StringBuilder reverse = romanNumeralBuffer.reverse();

@@ -36,4 +36,25 @@ public void testRomanNumeralsConvertsIVto4() throws Exception {
 
 }
 
+@Test
+public void testRomanNumeralsConvertsVto5() throws Exception {
+        result = RomanNumerals.convert("V");
+        assertEquals(5, result);
+
+}
+
+@Test
+public void testRomanNumeralsConvertsVIto6() throws Exception {
+        result = RomanNumerals.convert("VI");
+        assertEquals(6, result);
+
+}
+
+@Test
+public void testRomanNumeralsConvertsIXto9() throws Exception {
+        result = RomanNumerals.convert("IX");
+        assertEquals(9, result);
+
+}
+
 }
