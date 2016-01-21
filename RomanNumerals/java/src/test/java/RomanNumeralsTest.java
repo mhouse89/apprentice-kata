@@ -78,4 +78,18 @@ public void testRomanNumeralsConvertsXLIVto44() throws Exception {
 
 }
 
+@Test
+public void testRomanNumeralsConvertsLXXXIXto89() throws Exception {
+        result = RomanNumerals.convert("LXXXIX");
+        assertEquals(89, result);
+
+}
+
+@Test
+public void testRomanNumeralsConvertsXCto90() throws Exception {
+        result = RomanNumerals.convert("XC");
+        assertEquals(90, result);
+
+}
+
 }
