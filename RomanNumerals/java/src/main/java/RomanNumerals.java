@@ -1,7 +1,7 @@
 
 public class RomanNumerals {
 
-  public int convert(int number) {
+  public int convert(String romanNumber) {
 
       return 0;
   }
