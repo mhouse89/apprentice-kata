@@ -71,4 +71,11 @@ public void testRomanNumeralsConvertsXLto40() throws Exception {
 
 }
 
+@Test
+public void testRomanNumeralsConvertsXLIVto44() throws Exception {
+        result = RomanNumerals.convert("XLIV");
+        assertEquals(44, result);
+
+}
+
 }

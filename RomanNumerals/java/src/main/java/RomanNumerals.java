@@ -16,18 +16,18 @@ public static int convert(String romanNumeral) {
         romanNumeralBuffer = new StringBuilder(romanNumeral);
         StringBuilder reverse = romanNumeralBuffer.reverse();
         total = 0;
-        char lastChar = 'a';
+        int lastVal = 0;
 
         for(index = 0; index < reverse.length(); index++) {
-                if (lastChar != 'a' && conversion.get(lastChar) > conversion.get(reverse.charAt(index))) {
-                  total = conversion.get(lastChar) - conversion.get(reverse.charAt(index));
+                if (lastVal > conversion.get(reverse.charAt(index))) {
+                  total += lastVal - conversion.get(reverse.charAt(index)) - lastVal;
                 }
 
                 else {
                   total += conversion.get(reverse.charAt(index));
                 }
 
-                lastChar = reverse.charAt(index);
+                lastVal = conversion.get(reverse.charAt(index));
 
         }
         return total;
