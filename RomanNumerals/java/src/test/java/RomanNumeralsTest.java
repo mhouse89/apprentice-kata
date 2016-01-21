@@ -92,4 +92,25 @@ public void testRomanNumeralsConvertsXCto90() throws Exception {
 
 }
 
+@Test
+public void testRomanNumeralsConvertsXCIVto94() throws Exception {
+        result = RomanNumerals.convert("XCIV");
+        assertEquals(94, result);
+
+}
+
+@Test
+public void testRomanNumeralsConvertsCXLIVto144() throws Exception {
+        result = RomanNumerals.convert("CXLIV");
+        assertEquals(144, result);
+
+}
+
+@Test
+public void testRomanNumeralsConvertsCMXCIXto999() throws Exception {
+        result = RomanNumerals.convert("CMXCIX");
+        assertEquals(999, result);
+
+}
+
 }

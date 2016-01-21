@@ -13,6 +13,7 @@ public static int convert(String romanNumeral) {
         conversion.put('X', 10);
         conversion.put('L', 50);
         conversion.put('C', 100);
+        conversion.put('M', 1000);
 
         romanNumeralBuffer = new StringBuilder(romanNumeral);
         StringBuilder reverse = romanNumeralBuffer.reverse();
