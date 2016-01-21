@@ -1,0 +1,35 @@
+{
+  "modules": [{
+    "testcases": [{
+      "result": "success",
+      "name": "test_fizzbuzz_returns_1_when_passed_1"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_2_when_passed_2"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_Buzz_when_passed_5"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_Buzz_when_passed_multiple_of_5"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_FizzBuzz_when_passed_multiple_of_5_and_3"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_Fizz_when_passed_3"
+    }, {
+      "result": "success",
+      "name": "test_fizzbuzz_returns_Fizz_when_passed_multiple_of_3"
+    }],
+    "nr_error": 0,
+    "nr_success": 7,
+    "name": "test.test_Fizzbuzz.FizzbuzzTester",
+    "nr_failed": 0
+  }],
+  "metadata": {
+    "command": "/usr/local/bin/nosetests --with-json-extended",
+    "cwd": "/Users/matthewhouse/dev/apprentice-kata/FizzBuzz/python",
+    "time": 1453319376.099571
+  }
+}

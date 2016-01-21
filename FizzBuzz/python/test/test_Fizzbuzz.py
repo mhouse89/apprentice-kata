@@ -1,6 +1,7 @@
 import unittest
 from app.Fizzbuzz import Fizzbuzz
 
+
 class FizzbuzzTester(unittest.TestCase):
 
     def setUp(self):
