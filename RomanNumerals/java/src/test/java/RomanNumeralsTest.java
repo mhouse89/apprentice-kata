@@ -29,4 +29,11 @@ public void testRomanNumeralsConvertsIIIto3() throws Exception {
 
 }
 
+@Test
+public void testRomanNumeralsConvertsIVto4() throws Exception {
+        result = RomanNumerals.convert("IV");
+        assertEquals(4, result);
+
+}
+
 }
