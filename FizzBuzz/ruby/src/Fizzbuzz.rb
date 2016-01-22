@@ -1,15 +1,10 @@
 class FizzBuzz
   def self.convert(number)
+    result = ''
 
-    if number % 15 == 0
-      "FizzBuzz"
-    elsif number % 3 == 0
-      "Fizz"
-    elsif number % 5 == 0
-      "Buzz"
-    else
-      number
-    end
-
+    result += 'Fizz' if number % 3 == 0
+    result += 'Buzz' if number % 5 == 0
+    result = number if result.empty?
+    result
   end
 end
