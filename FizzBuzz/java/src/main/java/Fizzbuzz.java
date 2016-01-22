@@ -13,11 +13,11 @@ public class Fizzbuzz {
           result.append("Buzz");
     }
 
-    if (result.length() > 1){
-          return result.toString();
+    if (result.length() < 1){
+          result.append(Integer.toString(number));
     }
-    
-    return Integer.toString(number);
+
+    return result.toString();
 
   }
 

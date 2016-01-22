@@ -7,53 +7,53 @@ import org.junit.Test;
 public class FizzbuzzTest {
 
   String result;
-  Fizzbuzz fb;
+  Fizzbuzz fizzbuzz;
 
   @Before
   public void setUp() {
-          fb = new Fizzbuzz();
+          fizzbuzz = new Fizzbuzz();
   }
 
 
   @Test
   public void fizzbuzzReturns1WhenPassedTheNumber1() {
-          result = fb.convert(1);
+          result = fizzbuzz.convert(1);
           assertEquals("1", result);
   }
 
   @Test
   public void fizzbuzzReturns2WhenPassedTheNumber2() {
-          result = fb.convert(2);
+          result = fizzbuzz.convert(2);
           assertEquals("2", result);
   }
 
   @Test
   public void fizzbuzzReturnsFizzWhenPassedTheNumber3() {
-          result = fb.convert(3);
+          result = fizzbuzz.convert(3);
           assertEquals("Fizz", result);
   }
 
   @Test
   public void fizzbuzzReturnsBuzzWhenPassedTheNumber5() {
-          result = fb.convert(5);
+          result = fizzbuzz.convert(5);
           assertEquals("Buzz", result);
   }
 
   @Test
   public void fizzbuzzReturnsFizzWhenPassedAMultipleOf3() {
-          result = fb.convert(6);
+          result = fizzbuzz.convert(6);
           assertEquals("Fizz", result);
   }
 
   @Test
   public void fizzbuzzReturnsBuzzWhenPassedAMultipleOf5() {
-          result = fb.convert(10);
+          result = fizzbuzz.convert(10);
           assertEquals("Buzz", result);
   }
 
   @Test
   public void fizzBuzzReturnsFizzBuzzWhenPassedAMultipleOf3And5() {
-          result = fb.convert(15);
+          result = fizzbuzz.convert(15);
           assertEquals("FizzBuzz", result);
   }
 

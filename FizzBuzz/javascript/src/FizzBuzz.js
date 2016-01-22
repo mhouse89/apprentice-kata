@@ -1,14 +1,16 @@
-function Fizzbuzz() {
+var Fizzbuzz = function() {};
+
   Fizzbuzz.prototype.convert = function (number) {
-    if(number % 15 === 0) {
-      return "FizzBuzz";
-    }
+    var result = '';
+
     if(number % 3 === 0) {
-      return "Fizz";
+      result += "Fizz";
     }
-    else if (number % 5 === 0) {
-      return "Buzz";
+    if (number % 5 === 0) {
+      result += "Buzz";
     }
-    return number;
+    if (!result) {
+      result = number;
+    }
+    return result;
   };
-}

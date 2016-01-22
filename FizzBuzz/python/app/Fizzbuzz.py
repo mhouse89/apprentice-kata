@@ -1,10 +1,12 @@
 class Fizzbuzz(object):
 
     def convert(self, number):
-        if(number % 15 == 0):
-            return "FizzBuzz"
+        result = ""
+
         if (number % 3 == 0):
-            return "Fizz"
-        elif(number % 5 == 0):
-            return "Buzz"
-        return number
+            result += "Fizz"
+        if(number % 5 == 0):
+            result += "Buzz"
+        if(result == ""):
+            result = number
+        return result
