@@ -17,20 +17,21 @@ public static int convert(String romanNumeral) {
         conversion.put('M', 1000);
 
         romanNumeralBuffer = new StringBuilder(romanNumeral);
-        StringBuilder reverse = romanNumeralBuffer.reverse();
+        StringBuilder reversedString = romanNumeralBuffer.reverse();
         total = 0;
         int lastVal = 0;
 
-        for(index = 0; index < reverse.length(); index++) {
-                if (lastVal > conversion.get(reverse.charAt(index))) {
-                  total += lastVal - conversion.get(reverse.charAt(index)) - lastVal;
+        for(index = 0; index < reversedString.length(); index++) {
+                if (lastVal > conversion.get(reversedString.charAt(index))) {
+                  total -= lastVal;
+                  total += lastVal - conversion.get(reversedString.charAt(index));
                 }
 
                 else {
-                  total += conversion.get(reverse.charAt(index));
+                  total += conversion.get(reversedString.charAt(index));
                 }
 
-                lastVal = conversion.get(reverse.charAt(index));
+                lastVal = conversion.get(reversedString.charAt(index));
 
         }
         return total;
